@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#text {
+   text-align: center;
+}
+
+#text img {
+    margin-bottom: 72px;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 49px;   
+    line-height: 56px; 
+    margin-bottom: 32px;
+    font-weight: normal;
+}
+
+span {
+    color: #F90;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #7D7987;
+    line-height: 28px;
+    margin-bottom: 56px;
+}
+
+#primeiroparagrafo {
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #F90;
+    font-size: 14px;
+}
+
+/*pegue um elemento 'a' que tenha um elemento 'a' anterior a ele. lê-se de trás ´pra frente*/
+footer a + a {
+    margin-left: 28px;
+}
+
+#line {
+    width: 568px;
+    height: 1px;
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 8px;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
